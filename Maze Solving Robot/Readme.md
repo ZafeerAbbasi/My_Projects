@@ -1,3 +1,5 @@
+## Maze Solving Robot
+
 What can this robot do?
 
 This robot can solve any line maze or possibly a wall maze by knowing the maze layout and design in its memory, then solving it on its screen in memory and then actually solving the maze by following the shortest path to reach the end coordinate. 
