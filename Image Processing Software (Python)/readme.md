@@ -1,4 +1,4 @@
-## Image-Processing-Software-Python
+## Image Processing Software (Python)
 
 ### Project Description
 Wrote a program that processes images by applying changes pixel-by-pixel and has a computer vision feature in Python.
