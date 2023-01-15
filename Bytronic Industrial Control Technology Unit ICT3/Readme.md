@@ -24,9 +24,6 @@ Flowcharts, and Summary and conclusion.
 ![My Image](image.png)
 
 
-### Click [here](https://www.youtube.com/watch?v=IimTDCz5J4Q&t=10s) to take a look at how this control unit works
- [<img src="ICT3.jpg">](https://www.youtube.com/watch?v=IimTDCz5J4Q&t=10s)
-
-
-
+### Here is short clip of how the ICT3 works when fully programmed:
+https://user-images.githubusercontent.com/86879362/212527610-a58a9158-1692-4d35-9682-abfbe3e97729.mp4
 
