@@ -25,3 +25,7 @@ Flowcharts, and Summary and conclusion.
 
 
 [![Link to Example of ICT3 in Action](img.png)](https://www.youtube.com/watch?v=IimTDCz5J4Q&t=10s)
+
+ [<img src="image.png">](https://www.youtube.com/watch?v=IimTDCz5J4Q&t=10s)
+
+![My Image](image.png)
