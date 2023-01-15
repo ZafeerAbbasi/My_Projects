@@ -1,6 +1,7 @@
 ## Bytronic Industrial Control Technology Unit ICT3
 
-The goals of this project are to develop an effective, reliable, fully automated controller
+## Project Description
+Developed an effective, reliable, fully automated controller
 for the ICT setup to assemble widgets, develop an approach for the system to recover in the
 event of a power outage and develop a graphical user interface to allow a real-time snapshot
 indicating what sensors and actuators are activated/deactivated at all times, the number of
