@@ -8,8 +8,7 @@ widgets processed during the operation, the efficiency of the system and a pause
 allow the system to halt operation using LabVIEW. LabView is a graphical programming
 environment used to develop and validate test systems.
 
-The followings are the criteria for the project:
-
+### The followings are the criteria for the project:
 1. Development of an efficient, robust, fully automated controller for the ICT setup to 
 assemble widgets. 
 2. Development of a graphical user interface to allow the following: 
@@ -21,11 +20,13 @@ assemble widgets.
 5. Clear and practical documentation including Introduction, System overview, Algorithms and 
 Flowcharts, and Summary and conclusion. 
 
-[![Link to Example of ICT3 in Action](https://img.youtube.com/vi/IimTDCz5J4Q&t=10s/0.jpg)](https://www.youtube.com/watch?v=IimTDCz5J4Q&t=10s)
-
-
-[![Link to Example of ICT3 in Action](img.png)](https://www.youtube.com/watch?v=IimTDCz5J4Q&t=10s)
-
- [<img src="image.png">](https://www.youtube.com/watch?v=IimTDCz5J4Q&t=10s)
-
+### Here is the GUI I developed for the ICT3
 ![My Image](image.png)
+
+
+### Click [here](https://www.youtube.com/watch?v=IimTDCz5J4Q&t=10s) to take a look at how this control unit works
+ [<img src="ICT3.jpg">](https://www.youtube.com/watch?v=IimTDCz5J4Q&t=10s)
+
+
+
+
