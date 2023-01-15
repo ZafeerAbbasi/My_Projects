@@ -19,3 +19,25 @@ detail using simulation data from MATLAB. The objective of the project is to stu
 ### Quarter Car Suspension Model
 
 ![myimage](https://user-images.githubusercontent.com/86879362/212531546-ec31c5e7-8900-46ed-b235-8857a270973c.jpg)
+
+### Variable Definition Table
+Variable Name | Unit          | Description
+------------- | ------------- | -----------
+y<sub>1</sub>(t) | m  | Displacement of Vehicle Body (output)
+y<sub>2</sub>(t) | m  | Displacement of Vehicle Wheel (output)
+u(t) | m  | Road Profile (input)
+M<sub>1</sub>  | Kg  | Mass of Quarter Vehicle
+M<sub>2</sub>  | Kg  | Mass of Wheel and Suspension
+K<sub>1</sub>  | N/m | Spring Constant of Suspension System
+K<sub>2</sub>  | N/m | Spring Constant of Wheel and Suspension
+B<sub>1</sub>  | N * s/m | Damping Constant of Suspension System
+B<sub>2</sub>  | N * s/m | Damping Constant of Wheel and Tire
+
+
+### Some of the results
+![RealisticRoadProfileResponseUsingFourierSeries_noderivative](https://user-images.githubusercontent.com/86879362/212531747-300f7273-9cc1-47ba-8f45-3477dfe5741c.jpg)
+
+![RealisticRoadProfileResponseVaryingDamping_noderivative](https://user-images.githubusercontent.com/86879362/212531688-ee548139-ac7e-408a-b243-cb2fd67414f0.jpg)
+
+![RealisticRoadProfileResponseVaryingVehicleWeight_noderivative](https://user-images.githubusercontent.com/86879362/212531691-2d67c9c5-69a0-46dc-8e62-dc6bf6313380.jpg)
+
