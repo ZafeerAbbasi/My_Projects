@@ -16,6 +16,6 @@ body of the car moves when going over bumps in the road. The effects of altering
 detail using simulation data from MATLAB. The objective of the project is to study how changing parameters affect the ride quality of the vehicle.
 
 
-### Quarter Car Suspension Model![quater]
+### Quarter Car Suspension Model
 
 ![myimage](https://user-images.githubusercontent.com/86879362/212531546-ec31c5e7-8900-46ed-b235-8857a270973c.jpg)
