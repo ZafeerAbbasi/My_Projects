@@ -22,3 +22,9 @@ Other comments:
 - the bot will solve the maze in memory first and then actually solve it using the shortest path physically.
 - After it reaches the target point, it will showcase the respective on its ev3 screen.
 - It tracks the maze using encoder values and so it can go out of bounds if the maze is uneven or unequal.
+
+### Here is a video demonstrating the Robot solving a maze on its display and then solving it in real time:
+https://user-images.githubusercontent.com/86879362/230726288-f139e19e-5e93-4c4c-b810-387191d925d3.mp4
+
+
+
