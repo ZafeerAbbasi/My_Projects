@@ -11,4 +11,5 @@ In this project, I wrote C code to essentially open a file in binary and then co
 
 # Demo
 Here's a short demo explaining how it works
-[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://github.com/ZafeerAbbasi/My-Projects/blob/main/Copy%20and%20Paste%20Program%20(C)/demo.mp4)
+
+![img2](https://github.com/ZafeerAbbasi/My-Projects/blob/main/Copy%20and%20Paste%20Program%20(C)/demo.mp4)
