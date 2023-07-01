@@ -13,4 +13,5 @@ Here's a list of my projects!
 - [Quarter Car Suspension System Modelling (MATLAB/Simulink)](https://github.com/ZafeerAbbasi/My-Projects/tree/main/Quarter%20Car%20Suspension%20System%20Modelling%20(MATLAB%2C%20SIMULINK))
 - [Mathematical Modelling and Simulation of Damping Pendulum (MATLAB)](https://github.com/ZafeerAbbasi/My-Projects/tree/main/Mathematical%20Modelling%20and%20Simulation%20of%20a%20Damping%20Pendulum%20(MATLAB))
 
-
+Heres's a list to some folders about specific projects!
+- [Learning C Projects](https://github.com/ZafeerAbbasi/My-Projects/tree/main/Learning%20C%20Projects)
