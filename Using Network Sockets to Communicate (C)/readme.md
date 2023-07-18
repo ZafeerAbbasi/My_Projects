@@ -33,7 +33,7 @@ Develop a queue structure for the server in which, the server can finish communi
 
 Develop multi-threading request handling for the server such that for every new connection request, open a new thread to communicate with it.
 
-## Demo (Client ends connection)
+## Demo
 This code is desgined to use the client and server on different computers, however, in this demo I have set the IP address of the client to localhost. Which basically meaans that the client and server are running on the same computer. If you want to use the server/client on seperate computers, then ensure that the IP address which is used in the client code, is the same IP Address of the computer thats running the server, thats the only change you have to make. If you want to use it on windows, please install Cygwin.
 
 
