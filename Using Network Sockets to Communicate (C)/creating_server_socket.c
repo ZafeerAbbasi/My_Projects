@@ -30,8 +30,8 @@ int main(int argc, char *argv[])
 {
     int socket_desc = 0, sock = 0, clientLen = 0;
     struct sockaddr_in client;
-    char client_message[200] = {0};
-    char message[100] = {0};
+    char client_message[500] = {0};
+    char message[500] = {0};
     const char *pMessage = "Hello from Zafeer's server";
 
     /*Create socket*/
@@ -91,9 +91,7 @@ int main(int argc, char *argv[])
             printf("Client Message: %s\n", client_message);
             if(strcmp("end", client_message) == 0)
             {
-                printf("Closing Connection...");
-                close(sock);
-                return 0;
+                printf("Server Message: Okay, bye bye!\n");
             }
             else
             {
@@ -115,6 +113,13 @@ int main(int argc, char *argv[])
             {
                 printf("Send from server to client failed\n");
                 return 1;
+            }
+
+            if(strcmp(message, "end") == 0)
+            {
+                printf("Closing server connection...\n");
+                close(sock);
+                return 0;
             }
         }
 

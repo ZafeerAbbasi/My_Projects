@@ -33,5 +33,9 @@ Develop a queue structure for the server in which, the server can finish communi
 
 Develop multi-threading request handling for the server such that for every new connection request, open a new thread to communicate with it.
 
-## Demo
+## Demo (Client ends connection)
+In this demo, the client ends the connection after the server tells it to end.
+You can notice that after the client ends, the server is still running, this is because server's are made to handle multiple client connections, one after the other, or multiple at once, but the client is only made for one connection to the server, it has no other purpose.
+
+## Demo (Server ends connection)
 

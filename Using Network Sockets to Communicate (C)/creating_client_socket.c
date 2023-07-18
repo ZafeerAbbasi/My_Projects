@@ -35,8 +35,8 @@ int main(void)
 {
     int hSocket = 0, read_size = 0;
     struct sockaddr_in server = {0};
-    char sendToServer[100] = {0};
-    char server_reply[200] = {0};
+    char sendToServer[500] = {0};
+    char server_reply[500] = {0};
     
     /*Create socket*/
     hSocket = create_socket();
@@ -82,8 +82,17 @@ int main(void)
         }
         
         /*Recieve from server*/
+        memset(server_reply, '\0',sizeof(server_reply));
+        memset(sendToServer, '\0',sizeof(sendToServer));
         read_size = socketReceive(hSocket, server_reply, 200);
         printf("Server Message: %s\n", server_reply);
+
+        if(strcmp(server_reply, "end") == 0)
+        {
+            printf("Closing connection...\n");
+            close(hSocket);
+            return 0;
+        }
     }
 }
 
