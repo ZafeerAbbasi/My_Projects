@@ -12,4 +12,4 @@ Here's a list of my projects!
 - [Fan Cooling System (C)](https://github.com/ZafeerAbbasi/My-Projects/tree/main/Fan%20Cooling%20System%20(C))
 - [Quarter Car Suspension System Modelling (MATLAB/Simulink)](https://github.com/ZafeerAbbasi/My-Projects/tree/main/Quarter%20Car%20Suspension%20System%20Modelling%20(MATLAB%2C%20SIMULINK))
 - [Mathematical Modelling and Simulation of Damping Pendulum (MATLAB)](https://github.com/ZafeerAbbasi/My-Projects/tree/main/Mathematical%20Modelling%20and%20Simulation%20of%20a%20Damping%20Pendulum%20(MATLAB))
-
+- [Copy and Paste Program (C)](https://github.com/ZafeerAbbasi/My-Projects/tree/main/Copy%20and%20Paste%20Program%20(C))
