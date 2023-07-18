@@ -34,8 +34,9 @@ Develop a queue structure for the server in which, the server can finish communi
 Develop multi-threading request handling for the server such that for every new connection request, open a new thread to communicate with it.
 
 ## Demo (Client ends connection)
-In this demo, the client ends the connection after the server tells it to end.
-You can notice that after the client ends, the server is still running, this is because server's are made to handle multiple client connections, one after the other, or multiple at once, but the client is only made for one connection to the server, it has no other purpose.
+This code is desgined to use the client and server on different computers, however, in this demo I have set the IP address of the client to localhost. Which basically meaans that the client and server are running on the same computer. If you want to use the server/client on seperate computers, then ensure that the IP address which is used in the client code, is the same IP Address of the computer thats running the server, thats the only change you have to make. If you want to use it on windows, please install Cygwin.
 
-## Demo (Server ends connection)
+
+https://github.com/ZafeerAbbasi/My-Projects/assets/86879362/f63a09fe-92e5-45a0-906c-eef9314182f9
+
 
