@@ -40,7 +40,11 @@ You can notice that after the client ends, the server is still running, this is 
 ## Demo (Server ends connection)
 In this demo, I have used the client to connect to localhost, which is itself. But If you want to use the server and client on different computers, make sure the client code has the updated IP address of the computer thats running the server. 
 Also ensure that the ports being used in the code are not being used by other processes on your computers.
-https://github.com/ZafeerAbbasi/My-Projects/assets/86879362/2d0a3f16-6683-4710-bbdd-5ce8ff973de2
+
+
+https://github.com/ZafeerAbbasi/My-Projects/assets/86879362/3a782fa9-899f-43ab-b25d-2a4d0f1c5132
+
+
 
 
 
