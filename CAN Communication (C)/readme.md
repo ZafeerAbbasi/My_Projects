@@ -29,3 +29,5 @@ In this project, I developed C code from scratch to implement simple CAN Communi
 3. When the F103C6 received the CAN Data Frame, it toggles a receive interrupt, which signals the MCU to call a callback function.
 4. This callback function interprets the CAN Data and then toggles a GPIO corresponding to the received data.
 5. Lastly, the GPIO's of the F103C6 are connected to LED's, so when the receive callback is called, it essentially toggles the LED corresponding to the GPIO.
+
+## Circuit Diagram
