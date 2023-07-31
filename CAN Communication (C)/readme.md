@@ -27,7 +27,6 @@ In this project, I developed C code from scratch to implement simple CAN Communi
 1. There are buttons connected to GPIO Pins of the F446ZE, whenver one of these buttons are pressed, they toggle an interrupt which signals the MCU to call a callback function.
 2. The callback function saves which button number was pressed and then sends the data via CAN to the F103C6.
 3. When the F103C6 received the CAN Data Frame, it toggles a receive interrupt, which signals the MCU to call a callback function.
-4. This callback function interprets the CAN Data and then toggles a GPIO interrupt corresponding to the received data.
-5. Lastly, the GPIO's of the F103C6 are connected to LED's, so when the GPIO interrupt toggles, it calls the callback function and in that we essentially toggle the LED corresponding to the GPIO.
+4. This callback function interprets the CAN Data and then toggles a GPIO corresponding to the CAN data, and the GPIO is connected to an LED.
 
 ## Circuit Diagram
