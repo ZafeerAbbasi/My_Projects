@@ -1,8 +1,14 @@
-## CAN Communication 
+# CAN Communication 
 
 
 ## Project Description
 In this project, I developed C code from scratch to implement simple CAN Communication between 2 MCU's: NUCLEO-F446ZE and STM32F103C6T6 BluePill.
+
+## Demo
+
+https://github.com/ZafeerAbbasi/My-Projects/assets/86879362/292b7ac0-ef35-4513-8c08-469ebc97d101
+
+
 
 ## Features
 - Implemented button debouncing techniques for reliable behavior from input buttons
