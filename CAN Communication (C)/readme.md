@@ -30,3 +30,4 @@ In this project, I developed C code from scratch to implement simple CAN Communi
 4. This callback function interprets the CAN Data and then toggles a GPIO corresponding to the CAN data, and the GPIO is connected to an LED.
 
 ## Circuit Diagram
+[CAN_COMMUNICATION_V1_CIRCUIT_DIAGRAM_bb.pdf](https://github.com/ZafeerAbbasi/My-Projects/files/12224016/CAN_COMMUNICATION_V1_CIRCUIT_DIAGRAM_bb.pdf)
