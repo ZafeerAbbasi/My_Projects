@@ -44,8 +44,9 @@ https://github.com/ZafeerAbbasi/My-Projects/assets/86879362/a03ae9bd-d037-43db-8
 6. When the CAN Frame reaches the F103C6, it first goes through a simple CAN Mask Mode filter to see if the CAN ID of the frame matches what we are expecting. (A possible improvement is to add multiple nodes, and each node would only accept CAN Frames for a specific CAN ID. Thus each node would have one LED, and only the node whos filter accepts the pending CAN ID would continue).
 7. If the incoming message passes the filter then its placed in the FIFO (First In First Out), if it doesnt pass the filter then it's discarded.
 8. Once the message passes the filter and is placed in the FIFO, it toggles a RxFIFOMsgPending interrupt, which signals the MCU that theres a message in the FIFO thats waiting to be read, and in the subsequent callback function, I read the message in the FIFO and abstract the data that contains information about the button pressed.
-9. Depending on the data (which contains the button pressed), I toggle an a GPIO correspond to the button pressed.
-10. Lastly, the toggled GPIO's are connected to LED's, so toggling the GPIO is essentially toggling the LED.
+9. Also in the callback function (RxFIFOMsgPendingCallback), I send a status update via UART, as seen in the demo, containing the status of the recieved message, and the data within the message.
+10. Depending on the data (which contains the button pressed), I toggle an a GPIO correspond to the button pressed.
+11. Lastly, the toggled GPIO's are connected to LED's, so toggling the GPIO is essentially toggling the LED.
 
 ## [Circuit Diagram](https://github.com/ZafeerAbbasi/My-Projects/files/12224016/CAN_COMMUNICATION_V1_CIRCUIT_DIAGRAM_bb.pdf)
 ![CAN_COMMUNICATION_V1_CIRCUIT_DIAGRAM_bb](https://github.com/ZafeerAbbasi/My-Projects/assets/86879362/60744121-461c-4f35-a804-d3631f504a20)
