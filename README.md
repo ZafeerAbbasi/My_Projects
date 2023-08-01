@@ -7,6 +7,7 @@ Welcome to my Projects Repository
 
 Here's a list of my projects!
 - [Maze Solving Robot (C)](https://github.com/ZafeerAbbasi/My-Projects/tree/main/Maze%20Solving%20Robot%20(C))
+- [CAN Communication (C)](https://github.com/ZafeerAbbasi/My-Projects/tree/main/CAN%20Communication%20(C))
 - [Image Processing Software (Python)](https://github.com/ZafeerAbbasi/My-Projects/tree/main/Image%20Processing%20Software%20(Python))
 - [Bytronic Industrial Control Technology Unit ICT3 (LabVIEW)](https://github.com/ZafeerAbbasi/My-Projects/tree/main/Bytronic%20Industrial%20Control%20Technology%20Unit%20ICT3%20(LabVIEW))
 - [Networking using Sockets (C)](https://github.com/ZafeerAbbasi/My-Projects/tree/main/Networking%20Sockets%20(C))
