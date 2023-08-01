@@ -31,3 +31,4 @@ In this project, I developed C code from scratch to implement simple CAN Communi
 
 ## Circuit Diagram
 [CAN_COMMUNICATION_V1_CIRCUIT_DIAGRAM_bb.pdf](https://github.com/ZafeerAbbasi/My-Projects/files/12224016/CAN_COMMUNICATION_V1_CIRCUIT_DIAGRAM_bb.pdf)
+![CAN_COMMUNICATION_V1_CIRCUIT_DIAGRAM_bb](https://github.com/ZafeerAbbasi/My-Projects/assets/86879362/60744121-461c-4f35-a804-d3631f504a20)
