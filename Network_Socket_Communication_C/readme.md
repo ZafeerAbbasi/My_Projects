@@ -5,6 +5,14 @@ In This project, I wrote C code to communicate via Network Sockets.
 The programs were developed in Windows, but by using a UNIX-like environment: Cygwin, I'm able to run these programs on Linux and MacOS.
 Here's how it works:
 
+## Demo
+In this demo, I have used the client to connect to localhost, which is itself, meaning both the server and client are running on the same computer. If you want to use the server and client on different computers, make sure the client code has the updated IP address of the computer thats running the server. 
+Also ensure that the ports being used in the code are not being used by other processes on your computers.
+
+
+https://github.com/ZafeerAbbasi/My-Projects/assets/86879362/3a782fa9-899f-43ab-b25d-2a4d0f1c5132
+
+
 Sockets are used for one computer to communicate with another, one is usually called the server, and the other, client.
 
 1. The server starts by creating a socket for communication.
@@ -32,14 +40,6 @@ Develop multi-threaded communication by allocating one thread for sending data, 
 Develop a queue structure for the server in which, the server can finish communicating with one client and then move on to the next one in the queue.
 
 Develop multi-threading request handling for the server such that for every new connection request, open a new thread to communicate with it.
-
-
-## Demo
-In this demo, I have used the client to connect to localhost, which is itself, meaning both the server and client are running on the same computer. If you want to use the server and client on different computers, make sure the client code has the updated IP address of the computer thats running the server. 
-Also ensure that the ports being used in the code are not being used by other processes on your computers.
-
-
-https://github.com/ZafeerAbbasi/My-Projects/assets/86879362/3a782fa9-899f-43ab-b25d-2a4d0f1c5132
 
 
 
