@@ -36,7 +36,7 @@ https://github.com/ZafeerAbbasi/My-Projects/assets/86879362/a03ae9bd-d037-43db-8
 - PlatformIO
 
 ## How it works
-1. There are buttons connected to GPIO Pins of the F446ZE, whenver one of these buttons are pressed, they toggle an interrupt which signals the MCU to call a callback function.
+1. There are buttons connected to GPIO Pins of the F446ZE, whenever one of these buttons are pressed, they toggle an interrupt which signals the MCU to call a callback function.
 2. In the callback, the button that caused the interrupt is determined and then a CAN Data frame is created containing information about the corresponding button and is given a CAN ID.
 3. The CAN Frame is then sent by the STM32 bxCAN Peripheral CAN RX and CAN TX pins to the SN65HVD230 Transceiver, which converts the single-ended signals to differential, CANH and CANL signals, and sends it via the CAN Bus to the F103C6.
 4. After the CAN Frame is sent, a TxMailboxComplete interrupt is signaled and thus triggers a callback. The STM32 bxCAN has 3 Tx Mailboxes, and I have added a TxMailboxComplete interrupt for each mailbox. So if the Tx scheduler uses mailbox X then TxMailbox(X)Complete interrupt is toggled.
