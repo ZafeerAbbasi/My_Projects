@@ -42,9 +42,10 @@ https://github.com/ZafeerAbbasi/My-Projects/assets/86879362/a03ae9bd-d037-43db-8
 4. After the CAN Frame is sent, a TxMailboxComplete interrupt is signaled and thus triggers a callback. The STM32 bxCAN has 3 Tx Mailboxes, and I have added a TxMailboxComplete interrupt for each mailbox. So if the Tx scheduler uses mailbox X then TxMailbox(X)Complete interrupt is toggled.
 5. In the TxMailboxComplete callback, a status update is sent via UART, as seen in the demo, containing the status of the message (sent or unsent) and the mailbox used to send the message.
 6. When the CAN Frame reaches the F103C6, it first goes through a simple CAN Mask Mode filter to see if the CAN ID of the frame matches what we are expecting. (A possible improvement is to add multiple nodes, and each node would only accept CAN Frames for a specific CAN ID. Thus each node would have one LED, and only the node whos filter accepts the pending CAN ID would continue).
-7. The callback function saves which button number was pressed and then creates a CAN Data frame and sends the frame on the CAN Bus, using the Transceiver to convert the CAN RX/TX single-ended signals to differential signals via CAN to the F103C6.
-8. When the F103C6 received the CAN Data Frame, it toggles a receive interrupt, which signals the MCU to call a callback function.
-9. This callback function interprets the CAN Data and then toggles a GPIO corresponding to the CAN data, and the GPIO is connected to an LED.
+7. If the incoming message passes the filter then its placed in the FIFO (First In First Out), if it doesnt pass the filter then it's discarded.
+8. Once the message passes the filter and is placed in the FIFO, it toggles a RxFIFOMsgPending interrupt, which signals the MCU that theres a message in the FIFO thats waiting to be read, and in the subsequent callback function, I read the message in the FIFO and abstract the data that contains information about the button pressed.
+9. Depending on the data (which contains the button pressed), I toggle an a GPIO correspond to the button pressed.
+10. Lastly, the toggled GPIO's are connected to LED's, so toggling the GPIO is essentially toggling the LED.
 
 ## [Circuit Diagram](https://github.com/ZafeerAbbasi/My-Projects/files/12224016/CAN_COMMUNICATION_V1_CIRCUIT_DIAGRAM_bb.pdf)
 ![CAN_COMMUNICATION_V1_CIRCUIT_DIAGRAM_bb](https://github.com/ZafeerAbbasi/My-Projects/assets/86879362/60744121-461c-4f35-a804-d3631f504a20)
