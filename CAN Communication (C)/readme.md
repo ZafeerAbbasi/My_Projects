@@ -17,6 +17,9 @@ In this project, I developed C code from scratch to implement simple CAN Communi
 - Waveshare SN65HVD230 CAN Board x2
 - DSD TECH SH-U09C5 USB to TTL UART Converter
 - CANADUINO® ST-Link V2 USB 
+- Multi-color LED's x4
+- Push buttons x4
+- 10KOhm Resistor x4
 
 
 ## Frameworks 
