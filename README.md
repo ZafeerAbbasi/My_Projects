@@ -5,7 +5,12 @@ Welcome to my Projects Repository
 
 - 📫 How to reach me: -via [email](mailto:zafeerabbasi57@yahoo.com) -via [LinkedIn](https://www.linkedin.com/in/zafeerabbasi/)
 
-Here's a list of my projects!
+## Table of Contents
+### Showcase
+- [Maze Solving Robot (C)](https://github.com/ZafeerAbbasi/My-Projects/tree/main/Maze_Solving_Robot_C)
+- [CAN Communication (C)](https://github.com/ZafeerAbbasi/My-Projects/tree/main/CAN_Communication_C)
+- [Networking using Sockets (C)](https://github.com/ZafeerAbbasi/My-Projects/tree/main/Network_Socket_Communication_C)
+### General Projects:
 - [Maze Solving Robot (C)](https://github.com/ZafeerAbbasi/My-Projects/tree/main/Maze_Solving_Robot_C)
 - [CAN Communication (C)](https://github.com/ZafeerAbbasi/My-Projects/tree/main/CAN_Communication_C)
 - [Image Processing Software (Python)](https://github.com/ZafeerAbbasi/My-Projects/tree/main/Image_Processing_Software_Python)
