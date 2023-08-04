@@ -12,6 +12,9 @@ This project intends to create an application using an STM32 MCU, specifically f
 
 The crucial aspect of our project lies in measuring the current consumption in two distinct scenarios - one with the standard operation (without sleep mode) and the other with the device set to sleep mode using the SLEEPONEXIT feature.
 
+### Hardware
+- NUCLEO-F446ZE MCU (STM32)
+
 ### Methodology
 1. **Standard Operation**: Initially, we will establish the MCU's operation without employing any low power modes. The focus will be on setting up TIM6 to trigger an Update interrupt every 10ms, which will, in turn, initiate a routine to send data via UART2. The current consumption in this regular operational mode will be measured and recorded for reference.
 
@@ -20,5 +23,4 @@ The crucial aspect of our project lies in measuring the current consumption in t
     **Diagram**
 ![Alt text](image.png)
 
-## Conclusion
-By meticulously exploring the SLEEPONEXIT feature's efficiency, this project aims to highlight the STM32 MCU's potential for low power operation. The results obtained will provide a clear and practical perspective on how energy consumption can be reduced in embedded systems without compromising the application's performance. This endeavor could be a substantial stride towards creating energy-efficient, cost-effective, and more sustainable embedded systems.
+3. **Conclusion**: By meticulously exploring the SLEEPONEXIT feature's efficiency, this project aims to highlight the STM32 MCU's potential for low power operation. The results obtained will provide a clear and practical perspective on how energy consumption can be reduced in embedded systems without compromising the application's performance. This endeavor could be a substantial stride towards creating energy-efficient, cost-effective, and more sustainable embedded systems.
