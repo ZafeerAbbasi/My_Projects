@@ -15,3 +15,6 @@ Here's a list of my projects!
 - [Quarter Car Suspension System Modelling (MATLAB/Simulink)](https://github.com/ZafeerAbbasi/My-Projects/tree/main/Quarter_Car_Suspension_System_Modelling_MATLAB_SIMULINK)
 - [Mathematical Modelling and Simulation of Damping Pendulum (MATLAB)](https://github.com/ZafeerAbbasi/My-Projects/tree/main/Mathematical_Modelling_and_Simulation_of_a_Damping_Pendulum_MATLAB)
 - [Copy and Paste Program (C)](https://github.com/ZafeerAbbasi/My-Projects/tree/main/Copy_and_Paste_Program_C)
+
+### STM32
+- [Low Power Operation using SLEEPONEXIT in STM32MCU (C)](https://github.com/ZafeerAbbasi/My_Projects/tree/sleeponexit/STM32_Projects/LowPowerMode_SLEEPONEXIT_C)
