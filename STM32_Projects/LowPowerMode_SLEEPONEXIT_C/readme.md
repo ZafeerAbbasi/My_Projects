@@ -17,5 +17,8 @@ The crucial aspect of our project lies in measuring the current consumption in t
 
 2. **Low Power Operation**: In this phase, we will incorporate the SLEEPONEXIT feature, thereby instructing the MCU to enter sleep mode upon exiting the last executed interrupt routine. The same application will run as in the previous phase, but this time with the MCU entering sleep mode when idle, thus minimizing power consumption. The current consumption in this low power mode will be measured and contrasted with the previous results.
 
+    **Diagram**
+![Alt text](image.png)
+
 ## Conclusion
 By meticulously exploring the SLEEPONEXIT feature's efficiency, this project aims to highlight the STM32 MCU's potential for low power operation. The results obtained will provide a clear and practical perspective on how energy consumption can be reduced in embedded systems without compromising the application's performance. This endeavor could be a substantial stride towards creating energy-efficient, cost-effective, and more sustainable embedded systems.
