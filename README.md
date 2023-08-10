@@ -8,7 +8,7 @@ Welcome to my Projects Repository
 ## Table of Contents
 ### Showcase
 - [Maze Solving Robot (C)](https://github.com/ZafeerAbbasi/My-Projects/tree/main/Maze_Solving_Robot_C)
-- [CAN Communication (C)](https://github.com/ZafeerAbbasi/My-Projects/tree/main/CAN_Communication_C)
+- [CAN Communication using_STM_MCU's_(C)](https://github.com/ZafeerAbbasi/My-Projects/tree/main/CAN_Communication_C)
 - [Networking using Sockets (C)](https://github.com/ZafeerAbbasi/My-Projects/tree/main/Network_Socket_Communication_C)
 ### General Projects:
 - [Maze Solving Robot (C)](https://github.com/ZafeerAbbasi/My-Projects/tree/main/Maze_Solving_Robot_C)
