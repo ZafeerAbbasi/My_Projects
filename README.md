@@ -12,7 +12,6 @@ Welcome to my Projects Repository
 - [Networking using Sockets (C)](https://github.com/ZafeerAbbasi/My-Projects/tree/main/Network_Socket_Communication_C)
 ### General Projects:
 - [Maze Solving Robot (C)](https://github.com/ZafeerAbbasi/My-Projects/tree/main/Maze_Solving_Robot_C)
-- [CAN Communication (C)](https://github.com/ZafeerAbbasi/My-Projects/tree/main/CAN_Communication_C)
 - [Image Processing Software (Python)](https://github.com/ZafeerAbbasi/My-Projects/tree/main/Image_Processing_Software_Python)
 - [Bytronic Industrial Control Technology Unit ICT3 (LabVIEW)](https://github.com/ZafeerAbbasi/My-Projects/tree/main/Bytronic_Industrial_Control_Technology_Unit_ICT3_LabVIEW)
 - [Networking using Sockets (C)](https://github.com/ZafeerAbbasi/My-Projects/tree/main/Network_Socket_Communication_C)
@@ -22,4 +21,5 @@ Welcome to my Projects Repository
 - [Copy and Paste Program (C)](https://github.com/ZafeerAbbasi/My-Projects/tree/main/Copy_and_Paste_Program_C)
 
 ### STM32
+- [CAN Communication using_STM_MCU's_(C)](https://github.com/ZafeerAbbasi/My-Projects/tree/main/CAN_Communication_C)
 - [Low Power Operation using SLEEPONEXIT in STM32MCU (C)](https://github.com/ZafeerAbbasi/My_Projects/tree/main/STM32_Projects/LowPowerMode_SLEEPONEXIT_C)
