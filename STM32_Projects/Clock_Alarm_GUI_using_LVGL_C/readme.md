@@ -11,14 +11,13 @@ This Project intents to create an Alarm Clock GUI Application using an STM32 MCU
 ### Simulation
 Utilizing the LVGL simulator for development provided a streamlined and efficient approach to GUI design. The simulator allowed for rapid prototyping, immediate visual feedback, and the ability to troubleshoot and refine the interface without the constraints or potential risks associated with physical hardware. This method ensured a robust and well-tested GUI foundation. Once this foundational development was complete, transitioning to the physical board was the logical next step. On the board, I focused on making the final, minor adjustments, ensuring that the GUI seamlessly integrated with the hardware and fine-tuning any device-specific behaviors or interactions. 
 
-<video src="clockAlarmUISim.mp4" controls title="Title"></video>
+https://github.com/ZafeerAbbasi/My_Projects/assets/86879362/41f0a65c-f20d-4c20-9c5b-6e2af52ae59e
 
 ### On the Physical Board
 I used a stylus because its more precise, but it works completely the same when touching it with your hands.
 The video showcasing the use of the GUI on the physical board displayed unusual colors, primarily due to the lighting environment in which the recording took place. Ambient lighting, reflections, and the angle of the camera in relation to the board's screen can all influence the captured colors, potentially leading to discrepancies between the actual display and its representation in the video. Additionally, other factors such as the camera's sensor quality, white balance settings, and post-processing might have contributed to the color anomalies observed in the footage.
 
-<video src="IMG_0044.mp4" controls title="Title"></video>
-
+https://github.com/ZafeerAbbasi/My_Projects/assets/86879362/7c021122-e73d-43e2-a669-b5e31261f1f3
 
 ## How you can run the simulator
 Download the repo contents and navigate to /RunSimulatorYourself and simply double click on 'program.exe'. 
