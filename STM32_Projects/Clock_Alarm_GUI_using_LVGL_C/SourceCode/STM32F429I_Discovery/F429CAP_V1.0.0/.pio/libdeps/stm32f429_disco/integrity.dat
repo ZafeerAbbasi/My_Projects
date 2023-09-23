@@ -1,0 +1,3 @@
+lvgl=https://github.com/lvgl/lvgl/archive/refs/tags/v8.2.0.zip
+BSP-stmpe811
+BSP-ili9341

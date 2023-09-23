@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "lvgl.h": "c",
+        "lv_gpu_stm32_dma2d.h": "c",
+        "app_hal.h": "c"
+    }
+}
