@@ -40,10 +40,10 @@ int main(void)
 {
 	lv_init();
   
-  hal_setup();
+	hal_setup();
 
-  /*Main Clock Alarm UI Object Constructor*/
-  clockAlarmUIConstructor(&clockAlarmUI_inst);
+  	/*Main Clock Alarm UI Object Constructor*/
+  	clockAlarmUIConstructor(&clockAlarmUI_inst);
 
 	hal_loop();
 }
