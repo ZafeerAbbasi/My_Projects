@@ -20,7 +20,7 @@ The video showcasing the use of the GUI on the physical board displayed unusual 
 https://github.com/ZafeerAbbasi/My_Projects/assets/86879362/7c021122-e73d-43e2-a669-b5e31261f1f3
 
 ## How you can run the simulator
-Download the repo contents and navigate to /RunSimulatorYourself and simply double click on 'program.exe'. 
+Just navigate to the 'RunSimulatorYourself' folder in this folder and download the raw file: ClockAlarmGUI.exe
 - It may say that the program is risky, I promise you there's nothing risky, its just the way Windows tries to detect malware and etc.
 - NOTE: Currently only Windows is supported, if enough people ask me, I'll make an executable for MacOS as well.
 
