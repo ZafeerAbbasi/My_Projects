@@ -7,7 +7,7 @@ Welcome to my Projects Repository
 
 ## Table of Contents
 ### Showcase
-- [Maze Solving Robot (C)](https://github.com/ZafeerAbbasi/My-Projects/tree/main/Maze_Solving_Robot_C)
+- [Clock Alarm GUI using LVGL on STM32MCU (C)](https://github.com/ZafeerAbbasi/My_Projects/tree/main/STM32_Projects/Clock_Alarm_GUI_using_LVGL_C)
 - [CAN Communication using_STM_MCU's_(C)](https://github.com/ZafeerAbbasi/My-Projects/tree/main/CAN_Communication_C)
 - [Networking using Sockets (C)](https://github.com/ZafeerAbbasi/My-Projects/tree/main/Network_Socket_Communication_C)
 ### General Projects:
@@ -23,3 +23,4 @@ Welcome to my Projects Repository
 ### STM32  
 - [CAN Communication using_STM_MCU's_(C)](https://github.com/ZafeerAbbasi/My-Projects/tree/main/CAN_Communication_C)
 - [Low Power Operation using SLEEPONEXIT in STM32MCU (C)](https://github.com/ZafeerAbbasi/My_Projects/tree/main/STM32_Projects/LowPowerMode_SLEEPONEXIT_C)
+- [Clock Alarm GUI using LVGL on STM32MCU (C)](https://github.com/ZafeerAbbasi/My_Projects/tree/main/STM32_Projects/Clock_Alarm_GUI_using_LVGL_C)
