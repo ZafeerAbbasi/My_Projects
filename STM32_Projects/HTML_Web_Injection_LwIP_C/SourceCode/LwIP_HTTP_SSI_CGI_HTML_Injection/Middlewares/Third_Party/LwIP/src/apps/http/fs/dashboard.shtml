@@ -1,0 +1,115 @@
+<!--
+#############################################################################  #
+File: dashboard.shtml                                                          #
+Project: fs                                                                    #
+Created Date: Friday, October 13th 2023, 3:36:12 am                            #
+Author: Zafeer Abbasi                                                          #
+----------------------------------------------                                 #
+Last Modified: Monday, October 16th 2023, 5:47:36 pm                           #
+Modified By: Zafeer Abbasi                                                     #
+----------------------------------------------                                 #
+Copyright (c) 2023 Zafeer.A                                                    #
+----------------------------------------------                                 #
+HISTORY:                                                                       #
+-->
+<!DOCTYPE HTML><html>
+<head>
+  <title>Remote Hardware Monitor</title>
+  <meta http-equiv="refresh" content ="1">
+  <meta name="viewport" content="width=device-width, initial-scale=0.8">
+  <link rel="icon" href="data:,">
+  <style>
+  html {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+  }
+  h1 {
+    font-size: 1.8rem;
+    color: white;
+  }
+  h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #143642;
+  }
+  .val{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #191919;
+   }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #581845;
+  }
+  body {
+    margin: 0;
+  }
+  .content {
+    padding: 5px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  .card {
+    background-color: #F8F7F9;;
+    padding-top:2px;
+    padding-bottom:2px;
+  }
+  
+  .image {
+    padding-top:50px;
+	padding-bottom:50px;
+	margin:0
+  }
+   .button{
+       display: block;
+	   width: 80px;
+	   background-color:#deb01b;
+	   border: none;
+	   color: white;
+	   padding: 13px 30px;
+	   text-decoration: none;
+	   font-size: 25px;
+	   margin: 30px 30px 30px 30px;
+	   cursor: pointer;
+	   border-radius: 4px;
+	   float: left;
+  }
+  .button-on{ background-color: #ff9999; left: 40%;position: absolute;}.button-on:active{background-color: #16a085;}
+ 
+ 
+
+   .state {
+     font-size: 1.5rem;
+     color:#8c8c8c;
+     font-weight: bold;
+   }
+  </style>
+</head>
+<body>
+  <div class="topnav">
+    <h1>REMOTE HARDWARE MONITOR DASHBOARD</h1>
+  </div>
+  <div class="content">
+    <div class="card">
+      <h2>USER BUTTON STATE</h2>
+      <h2 class="val"><!--#BUTTON--></h2>
+
+    </div>
+  </div>
+  <div class="content">
+    <div class="card">
+      <h2>INTERNAL MCU TEMPERATURE</h2>
+      <h2 class="val"><!--#SENSOR--></h2>
+
+    </div>
+  </div>
+  <div class="content">
+    <div class="card">
+      <h2>ELAPSED TIME</h2>
+      <h2 class="val"><!--#TIME--></h2>
+	  <a class="button button-on" href="index.html">EXIT</a>
+    </div>
+  </div>
+</body>
+</html>

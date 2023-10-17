@@ -1,0 +1,236 @@
+<!--
+#############################################################################  #
+File: led_control.html                                                         #
+Project: fs                                                                    #
+Created Date: Friday, October 13th 2023, 3:46:30 am                            #
+Author: Zafeer Abbasi                                                          #
+----------------------------------------------                                 #
+Last Modified: Monday, October 16th 2023, 5:52:40 pm                           #
+Modified By: Zafeer Abbasi                                                     #
+----------------------------------------------                                 #
+Copyright (c) 2023 Zafeer.A                                                    #
+----------------------------------------------                                 #
+HISTORY:                                                                       #
+-->
+<!DOCTYPE HTML><html>
+<head>
+  <title>EmbeddedExpertIO Remote Hardware Monitor</title>
+  <link rel="icon" href="data:,">
+  <meta name="viewport" content="width=device-width, initial-scale=0.8">
+  <style>
+  html {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+  }
+  h1 {
+    font-size: 1.8rem;
+    color: white;
+  }
+  h2{
+    font-size: 1rem;
+    font-weight: bold;
+    color: #143642;
+  }
+  .val{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #00ff11;
+   }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #581845;
+  }
+  body {
+    margin: 0;
+  }
+  .content {
+    padding: 3px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  .card {
+    background-color: #F8F7F9;;
+    padding-top:10px;
+    padding-bottom:25px;
+  }
+  
+  .image {
+    padding-top:50px;
+	padding-bottom:50px;
+	margin: 30px 30px 30px 30px;
+  }
+   .button{
+       display: block;
+	   width: 80px;
+	   background-color:#deb01b;
+	   border: none;
+	   color: white;
+	   padding: 13px 30px;
+	   text-decoration: none;
+	   font-size: 25px;
+	   margin: 30px 30px 30px 30px;
+	   cursor: pointer;
+	   border-radius: 4px;
+	   float: left;
+  }
+  
+     .exitbtn{
+       display: block;
+	   width: 50px;
+	   height: 10px;
+	   background-color:#631759;
+	   border: none;
+	   color: white;
+	   padding: 5px 5px 12px 5px;;
+	   text-decoration: none;
+	   font-size: 15px;
+	   margin: 30px 30px 30px 30px;
+	   cursor: pointer;
+	   border-radius: 15px;
+	   float: left;
+  }
+  
+  input.btn {
+    display: block;
+    width: 200px;
+    background-color: #5B2C6F;
+    border: none;
+    color: white;
+    padding: 13px 30px;
+    text-decoration: none;
+    font-size: 1rem;
+    margin: 2px auto; /* auto left and right margins center the button */
+    cursor: pointer;
+    border-radius: 4px;
+    position: relative; /* Adjusted to relative */
+}
+  
+
+}
+
+  .button-on{ background-color: #ff9999; left: 40%;position: absolute;}.button-on:active{background-color: #16a085;}
+ 
+       input.largerCheckbox {
+            width: 40px;
+            height: 40px;
+        }
+
+   .state {
+     font-size: 1.5rem;
+     color:#8c8c8c;
+     font-weight: bold;
+   }
+
+   #slider {
+        width: 60%; /* Takes up 90% of its container's width */
+        height: px; /* Adjust this value if you want a thicker slider */
+    }
+
+    /* Mobile styles */
+    @media screen and (max-width: 600px) {
+      /* ... your other mobile styles ... */
+
+      #slider {
+          width: 60%; /* On smaller screens, make the slider full width */
+          height: 70px; /* Adjust for larger touch targets on mobile */
+      }
+    }
+    
+  </style>
+
+  
+</head>
+<body>
+
+
+  <body>
+    <div class="topnav">
+      <h1>REMOTE HARDWARE CONTROL DASHBOARD</h1>
+    </div>
+  
+    <div class="content">
+      <div class="card">
+        <h2>LED'S</h2>
+        <form id="ledForm" method="get" action="/leds.cgi">
+          <table style="width:100%">
+            <tr>
+              <td><!--#RLED--><h2>LED1</h2><br></td>
+              <td><!--#BLED--><h2>LED2</h2><br></td>
+              <td><!--#GLED--><h2>LED3</h2><br></td>
+            </tr>
+          </table>
+        </form>
+      </div>
+    </div>
+  
+    <div class="content">
+      <div class="card">
+        <h2>MOTOR SPEED</h2>
+        <div class="stepper">
+          <button class="stepper-btn" onclick="adjustPWM(-10)">-</button>
+          <span id="currentValue" class="value-display">50</span> &#37;
+          <button class="stepper-btn" onclick="adjustPWM(10)">+</button>
+        </div>
+      </div>
+    </div>
+  
+    <a class="exitbtn" href="index.html">EXIT</a><br>
+  
+    <script>
+      document.getElementById("ledForm").addEventListener("change", function() {
+        // Auto-submit the form when there is a change
+        this.submit();
+      });
+  
+      window.onload = function() {
+        var storedValue = localStorage.getItem("sliderValue");
+        if (storedValue) {
+            document.getElementById("currentValue").innerText = storedValue;
+            currentValue = parseInt(storedValue);
+        }
+      };
+  
+      var currentValue = 50; // Initialize current value
+  
+      function adjustPWM(value) {
+        currentValue += value;
+  
+        if (currentValue < 0) {
+          currentValue = 0;
+        } else if (currentValue > 100) {
+          currentValue = 100;
+        }
+  
+        document.getElementById("currentValue").innerText = currentValue;
+        localStorage.setItem("sliderValue", currentValue);
+  
+        var xhr = new XMLHttpRequest();
+        xhr.open("GET", "/slider.cgi?value=" + currentValue, true);
+        xhr.send();
+      }
+    </script>
+  
+    <style>
+      .stepper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .stepper-btn {
+        background-color: #f7f7f7;
+        border: 1px solid #d4d4d4;
+        padding: 5px 15px;
+        margin: 0 10px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+      .stepper-btn:hover {
+        background-color: #e4e4e4;
+      }
+      .value-display {
+        font-size: 24px;
+      }
+    </style>
+  </body>
+  </html>

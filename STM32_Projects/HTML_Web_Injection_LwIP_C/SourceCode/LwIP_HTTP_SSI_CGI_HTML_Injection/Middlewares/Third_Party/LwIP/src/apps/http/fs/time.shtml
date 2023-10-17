@@ -1,0 +1,103 @@
+<!--
+#############################################################################  #
+File: time.shtml                                                               #
+Project: fs                                                                    #
+Created Date: Friday, October 13th 2023, 3:36:12 am                            #
+Author: Zafeer Abbasi                                                          #
+----------------------------------------------                                 #
+Last Modified: Friday, October 13th 2023, 3:48:30 am                           #
+Modified By: Zafeer Abbasi                                                     #
+----------------------------------------------                                 #
+Copyright (c) 2023 Zafeer.A                                                    #
+----------------------------------------------                                 #
+HISTORY:                                                                       #
+-->
+<!DOCTYPE HTML><html>
+<head>
+  <title>EmbeddedExpertIO Remote Hardware Monitor</title>
+  <meta http-equiv="refresh" content ="2">
+  <link rel="icon" href="data:,">
+  <style>
+  html {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+  }
+  h1 {
+    font-size: 1.8rem;
+    color: white;
+  }
+  h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #143642;
+  }
+  .val{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #00ff11;
+   }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #2b6680;
+  }
+  body {
+    margin: 0;
+  }
+  .content {
+    padding: 30px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  .card {
+    background-color: #F8F7F9;;
+    padding-top:50px;
+    padding-bottom:50px;
+  }
+  
+  .image {
+    padding-top:50px;
+	padding-bottom:50px;
+	margin: 30px 30px 30px 30px;
+  }
+   .button{
+       display: block;
+	   width: 80px;
+	   background-color:#deb01b;
+	   border: none;
+	   color: white;
+	   padding: 13px 30px;
+	   text-decoration: none;
+	   font-size: 25px;
+	   margin: 30px 30px 30px 30px;
+	   cursor: pointer;
+	   border-radius: 4px;
+	   float: left;
+  }
+  .button-on{ background-color: #ff9999; left: 40%;position: absolute;}.button-on:active{background-color: #16a085;}
+ 
+ 
+
+   .state {
+     font-size: 1.5rem;
+     color:#8c8c8c;
+     font-weight: bold;
+   }
+  </style>
+</head>
+<body>
+  <div class="topnav">
+    <h1>REMOTE TIMER SERVER </h1>
+  </div>
+
+  <div class="content">
+    <div class="card">
+      <h2>CURRENT TIME</h2>
+      <h2 class="val"><!--#TIME--></h2>
+	  <a class="button button-on" href="index.html">EXIT</a>
+
+    </div>
+  </div>
+
+</body>
+</html>
