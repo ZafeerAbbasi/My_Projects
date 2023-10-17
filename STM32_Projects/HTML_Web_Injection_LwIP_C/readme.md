@@ -10,6 +10,9 @@ This project intends to create an application using an STM32 MCU. This applicati
 
 ## Demonstration
 
+https://github.com/ZafeerAbbasi/My_Projects/assets/86879362/ba4f40bb-0b25-4e99-8342-0443bff8b28a
+
+
 ## Key Features/Accomplishments:
 - Wrote all low-level drivers from scratch for the following features:
     - Interfacing LAN8742A PHY Chip to establish Ethernet Connection
