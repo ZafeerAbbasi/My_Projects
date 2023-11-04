@@ -7,9 +7,9 @@ Welcome to my Projects Repository
 
 ## Table of Contents
 ### Showcase
+- [BLE-Controlled Display and Joystick Interface System (C)](https://github.com/ZafeerAbbasi/My_Projects/tree/main/STM32_Projects/BLE_Display_Joystick_Interface_C)
 - [HTTPD Server Hosting using LwIP via Ethernet on STM32 MCU (C)](https://github.com/ZafeerAbbasi/My_Projects/tree/main/STM32_Projects/HTML_Web_Injection_LwIP_C)
 - [Clock Alarm GUI using LVGL on STM32MCU (C)](https://github.com/ZafeerAbbasi/My_Projects/tree/main/STM32_Projects/Clock_Alarm_GUI_using_LVGL_C)
-- [CAN Communication using_STM_MCU's_(C)](https://github.com/ZafeerAbbasi/My-Projects/tree/main/CAN_Communication_C)
   
 ### General Projects:
 - [Maze Solving Robot (C)](https://github.com/ZafeerAbbasi/My-Projects/tree/main/Maze_Solving_Robot_C)
@@ -22,6 +22,7 @@ Welcome to my Projects Repository
 - [Copy and Paste Program (C)](https://github.com/ZafeerAbbasi/My-Projects/tree/main/Copy_and_Paste_Program_C)
 
 ### STM32  
+- [BLE-Controlled Display and Joystick Interface System (C)](https://github.com/ZafeerAbbasi/My_Projects/tree/main/STM32_Projects/BLE_Display_Joystick_Interface_C)
 - [HTTPD Server Hosting using LwIP via Ethernet on STM32 MCU (C)](https://github.com/ZafeerAbbasi/My_Projects/tree/main/STM32_Projects/HTML_Web_Injection_LwIP_C)
 - [Clock Alarm GUI using LVGL on STM32MCU (C)](https://github.com/ZafeerAbbasi/My_Projects/tree/main/STM32_Projects/Clock_Alarm_GUI_using_LVGL_C)
 - [CAN Communication using_STM_MCU's_(C)](https://github.com/ZafeerAbbasi/My-Projects/tree/main/CAN_Communication_C)
