@@ -14,7 +14,7 @@ This project intends to create a BLE - Controlled Interface System in which the 
     - JoyStick Module
 
 ## Demonstration
-<video src="DEMO.mp4" controls title="Title"></video>
+https://github.com/ZafeerAbbasi/My_Projects/assets/86879362/b4887ceb-ddc0-499a-9582-e8cedb03cc94
 
 
 ## Key Features/Accomplishments:
