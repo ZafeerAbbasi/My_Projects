@@ -28,6 +28,7 @@ https://github.com/ZafeerAbbasi/My_Projects/assets/86879362/b4887ceb-ddc0-499a-9
 
 ## PowerPoint Slides to teach you about BLE
 Here are some simplified slides to teach you the basics about BLE. These slides teach BLE in a way I wished I was learned them when I had started with BLE.
+[BLE Powerpoint Slides](BLE.pptx)
 
 
 ## Whats Going On?
