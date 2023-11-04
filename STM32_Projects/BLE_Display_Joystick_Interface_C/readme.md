@@ -1,4 +1,4 @@
-# Interactivge BLE-Controlled Display and Joystick Interface System
+# Interactive BLE-Controlled Display and Joystick Interface System
 
 ## Project Description
 This project intends to create a BLE - Controlled Interface System in which the user can see joystick co-ordinates remotely on a phone via BLE. The user can also display on the LCD Remotely from his phone via BLE.
