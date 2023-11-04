@@ -21,6 +21,7 @@ https://github.com/ZafeerAbbasi/My_Projects/assets/86879362/b4887ceb-ddc0-499a-9
 - Wrote all low-level drivers from scratch for the following:
     - ADC to measure JoyStick Readings
     - I2C to display data to the LCD
+- Used SPI to communicate with the Bluetooth Chip ( BlueNRG-M2SP )
 - Used BLE Stack to create a Service with two main characteristics:
     - 1. Notify User with Updated X,Y JoyStick Co-ordinates
     - 2. Allow the user to write and change the Attribute value
