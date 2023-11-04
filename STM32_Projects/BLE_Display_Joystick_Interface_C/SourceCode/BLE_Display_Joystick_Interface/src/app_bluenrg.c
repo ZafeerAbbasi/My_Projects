@@ -163,7 +163,7 @@ void blueNRG_init( void )
 void blueNRG_process( void )
 {
     tBleStatus ret;
-    uint8_t localName[ ] = { AD_TYPE_COMPLETE_LOCAL_NAME, 'Y', 'O', 'U', 'R', '-', 'M', 'O', 'M' };
+    uint8_t localName[ ] = { AD_TYPE_COMPLETE_LOCAL_NAME, 'T', 'E', 'S', 'T', '-', 'T', 'R', 'Y' };
     
     ret = aci_gap_set_discoverable(
         ADV_IND, 
