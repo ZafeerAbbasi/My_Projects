@@ -27,3 +27,14 @@ Welcome to my Projects Repository
 - [Clock Alarm GUI using LVGL on STM32MCU (C)](https://github.com/ZafeerAbbasi/My_Projects/tree/main/STM32_Projects/Clock_Alarm_GUI_using_LVGL_C)
 - [CAN Communication using_STM_MCU's_(C)](https://github.com/ZafeerAbbasi/My-Projects/tree/main/CAN_Communication_C)
 - [Low Power Operation using SLEEPONEXIT in STM32MCU (C)](https://github.com/ZafeerAbbasi/My_Projects/tree/main/STM32_Projects/LowPowerMode_SLEEPONEXIT_C)
+
+### Licenses/Certifications
+- [Bluetooth Low Energy ( BLE ) from Ground Up](https://www.udemy.com/certificate/UC-bab497c4-64f2-426c-be18-fb00f959be82/)
+- [Embedded Ethernet Programming with HAL](https://www.udemy.com/certificate/UC-21e13717-f6ea-4881-b11f-91097be76485/)
+- [Mastering Microcontrollers: STM32-LTDC, LCD-TFT, LVGL](http://ude.my/UC-8496b92f-8375-4957-936d-f3e4dc103437/)
+- [Mastering Microcontrollers: Timers, PWM, CAN, RTC, Low-Power Development](http://ude.my/UC-efd6576a-0f98-42e0-96e5-57021b6d103d)
+- [Embedded Systems Bare-Metal Programming](https://www.ude.my/UC-3609d8b2-8b61-44af-8573-f1bebb1794e9/)
+- [Embedded MicroPython](https://www.ude.my/UC-67156473-7d77-44d8-8c77-f6abf477f41b/)
+- [Advanced C Programming](https://www.ude.my/UC-13274a7b-4f99-426b-9405-d65afa7510f5/)
+- [C Programming Step by Step](https://www.ude.my/UC-39f9a0dc-c92a-48cd-b63f-af7cdd383131/)
+- [Scientific Computing with Python](https://freecodecamp.org/certification/zafeer/scientific-computing-with-python-v7)
