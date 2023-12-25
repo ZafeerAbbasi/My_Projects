@@ -29,6 +29,9 @@ Welcome to my Projects Repository
 - [Low Power Operation using SLEEPONEXIT in STM32MCU (C)](https://github.com/ZafeerAbbasi/My_Projects/tree/main/STM32_Projects/LowPowerMode_SLEEPONEXIT_C)
 
 ### Licenses/Certifications
+- [Embedded Systems Design with UML State Machines](https://www.udemy.com/certificate/UC-5498638f-bce2-4508-8020-6153ee0d8796/)
+- [Mastering RTOS: Hands on FreeRTOS and STM32Fx with Debugging](https://www.udemy.com/certificate/UC-bd31b3e7-f40d-4c4e-a77b-ff2907f7cfe0/)
+- [FreeRTOS From Ground Up on ARM Processors](https://www.udemy.com/certificate/UC-f595e4c1-acb6-4484-bf17-7fbeca106346/)
 - [Bluetooth Low Energy ( BLE ) from Ground Up](https://www.udemy.com/certificate/UC-bab497c4-64f2-426c-be18-fb00f959be82/)
 - [Embedded Ethernet Programming with HAL](https://www.udemy.com/certificate/UC-21e13717-f6ea-4881-b11f-91097be76485/)
 - [Mastering Microcontrollers: STM32-LTDC, LCD-TFT, LVGL](http://ude.my/UC-8496b92f-8375-4957-936d-f3e4dc103437/)
